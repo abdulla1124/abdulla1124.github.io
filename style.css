@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+}
+
+header nav .logo{
+    background: url("./images/silver-house_03.png");
+    background-repeat: no-repeat;
+    height: 151px;
+    width: 120px;
+    margin-top: 50px;
+    margin-bottom: 59px;
+
+}
+
+header nav ul{
+    display: flex;
+}
+
+header nav ul li a{
+    margin: 0 24px 0 24px;
+    padding-bottom: 15px;
+    line-height: 13px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #bab9b9;
+}
+
+header nav ul li a:hover{
+    border-bottom: 1px solid #4581b7;
+    color: #4581b7;
+}
+
+main{
+    width: 1111px;
+    height: 450px;
+    margin: 50px auto 30px;
+    background: url("./images/silver-house_07.jpg");
+}
+
+.box{
+    margin: auto;
+    height: 500px;
+    width: 1111px;
+    display: flex;
+    justify-content: space-between;
+}
+
+div .box1{
+    height: 500px;
+    width: 730px;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0 97px 50px 40px;
+}
+
+div .box2{
+    height: 500px;
+    width: 350px;
+    background: #f0f0f0;
+    margin: 0;
+    padding: 0 97px 50px 40px;
+}
+div h4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin: 50px 0 24px 0;
+    color: #4581b7;
+}
+
+div .pp p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7f7f7f;
+    line-height: 21.5px;
+}
+
+footer{
+    height: 150px;
+    background: #f0f0f0;
+    width: 1111px;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 41px;
+    padding-right: 41px;
+}
+
+footer .logo_btm{
+    background: url("./images/logo_btm_15.png");
+    width: 254px;
+    height: 120px;
+    
+}
+
+footer .footer_p p{
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #7f7f7f;
+    line-height: 21.5px;
+    
+}
+
+footer .footer_p p span{
+    font-weight: 700;
+}
